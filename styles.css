@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
 *{
   padding: 0;
@@ -73,7 +73,7 @@ html{
 .heading h1{
   font-size: 60px;
   color: #fff;
-  font-family: 'Erica One', cursive;
+  font-family: 'Rampart One', cursive;
   font-weight: 100;
   padding: 10px;
   margin-top: 150px;

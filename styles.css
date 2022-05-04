@@ -319,7 +319,7 @@ html{
 
 .grid {
   display:grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 20px 10px;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -330,10 +330,10 @@ html{
   margin: 5px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1150px){
   .grid{
     height: 50px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media screen and (max-width: 768px){

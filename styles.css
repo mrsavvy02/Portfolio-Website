@@ -411,3 +411,92 @@ html{
   margin-top: 90px;
   box-sizing: border-box;
 }
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-con {
+  display: flex;
+  padding-top: 3.5rem;
+}
+.contact-con .left-con {
+  flex: 2;
+}
+.contact-con .left-con h4 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.contact-con .left-con p {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+
+.contact-con .left-con span{
+  font-size: 30px;
+}
+
+.contact-con .left-con .contact-info .contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 !important;
+  padding: 0 !important;
+}
+.contact-con .left-con .contact-info .icon {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.contact-con .left-con .contact-info .icon i {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+.contact-con .left-con .contact-icon {
+  display: flex;
+  margin-top: 2rem;
+}
+.contact-con .left-con .contact-icon a {
+  display: flex;
+  align-items: center;
+  color: black;
+  background-color: #201d1d63;
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+.contact-con .left-con .contact-icon a:hover {
+  background-color: var(--color-secondary);
+}
+.contact-con .left-con .contact-icon a:hover i {
+  color: var(--color-primary);
+}
+.contact-con .left-con .contact-icon a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1150px){
+  .contact-con .left-con. h4{
+    font-size: 20px;
+
+  }
+
+}
+@media screen and (max-width: 768px){
+  .contact-con .left-con. h4{
+    display: inline;
+    font-size: 20px;
+
+  }
+
+}

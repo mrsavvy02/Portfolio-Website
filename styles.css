@@ -261,7 +261,7 @@ html{
 
 }
 
-@media screen and (max-width:768px)
+@media screen and (max-width:640px)
  {
 
    .skills h2, .learning h2{
@@ -273,12 +273,6 @@ html{
    .skills p, .learning p{
      font-size: 20px;
      padding: 5px;
-   }
-
-   .skills p{
-     display: grid;
-     grid-template-columns: repeat(5, 1fr);
-     grid-gap: 2px;
    }
 
 }
@@ -293,13 +287,6 @@ html{
 
    .skills p, .learning p{
      font-size: 15px;
-   }
-
-   .skills p{
-     border: none;
-     display: grid;
-     grid-template-columns: repeat(4, 2fr);
-     grid-gap: 5px;
    }
 
 }

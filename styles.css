@@ -429,7 +429,7 @@ html{
 }
 
 .contact-con .left-con span{
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .contact-con .left-con .contact-info .contact-item {
@@ -467,6 +467,7 @@ html{
 }
 .contact-con .left-con .contact-icon a:hover {
   background-color: var(--color-secondary);
+  transform: scale(1.5) rotate(360deg);
 }
 .contact-con .left-con .contact-icon a:hover i {
   color: var(--color-primary);
